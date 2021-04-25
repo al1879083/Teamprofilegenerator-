@@ -7,7 +7,7 @@ test('Manager class properly setup', () =>{
         name: "John",
         id: 123,
         email: "John@gmail.com",
-        officeNumber: 520,
+        office: 520,
         role: "Manager"
     });
     expect(manager.getName()).toBe("John");

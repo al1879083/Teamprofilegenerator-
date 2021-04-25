@@ -36,7 +36,7 @@ async function main(){
 }
 
 function createFile(manager, engineers, interns){
-  fs.writeFile('./dist/myTeam.html', buildFile(manager, engineers, interns), function(err){
+  fs.writeFile('./assets/myTeam.html', buildFile(manager, engineers, interns), function(err){
     if (err) {
       throw err;
     }
